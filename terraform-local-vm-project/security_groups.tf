@@ -12,7 +12,7 @@ runcmd:
 EOF
 
   lifecycle {
-    prevent_destroy = true  # Prevent Terraform from destroying/recreating this disk
+    prevent_destroy = false  # Prevent Terraform from destroying/recreating this disk
     ignore_changes  = [user_data]  # Ignore changes to user_data
   }
 }
