@@ -1,0 +1,12 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore .env files
+.env
+
+# Ignore any .tfvars files that may contain sensitive data
+terraform.tfvars
